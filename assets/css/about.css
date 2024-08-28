@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    max-width: 100%; 
+    padding: 85px; 
+    color: #333; 
+    background: #27374D; 
+    margin-top: -50px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.section2 {
+    background-color: #3b5998;
+}
+
+#about h2 {
+    font-size: 40px; 
+    color: #fff; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+#about ul {
+    list-style: none;    
+    padding: 0;     
+}
+
+#about ul li {
+    margin: 15px 0; 
+    font-size: 20px; 
+    transition: color 0.3s; 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#about ul li:hover {
+    background: #0c1022; 
+    color: white; 
+}
+
+#about ul li a {
+    text-decoration: none; 
+    color: blue; 
+    font-weight: bold; 
+}
+
+#about ul li a:hover {
+    color: #fff; 
+}
+
+.about ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.about ul li {
+    display: flex; 
+    align-items: center; 
+    background: #ffffff; 
+    margin: 10px 0; 
+    padding: 10px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.about ul li i {
+    margin-right: 10px; 
+    color: #3b5998;   
+}
+
+.about ul li a {
+    color: #000; 
+    text-decoration: none; 
+    transition: color 0.5s ease;   
+}
+
+.about ul li a:hover {
+    color: #fe05e9; 
+}
+
+
+@media (max-width: 1200px) {
+    .about {
+        padding: 70px;
+    }
+
+    #about h2 {
+        font-size: 35px;
+    }
+
+    #about ul li {
+        font-size: 18px;
+        padding: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .about {
+        padding: 60px;
+    }
+
+    #about h2 {
+        font-size: 30px;
+    }
+
+    #about ul li {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 50px;
+    }
+
+    #about h2 {
+        font-size: 25px;
+    }
+
+    #about ul li {
+        font-size: 14px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+        padding: 40px;
+        margin-top: -30px;
+    }
+
+    #about h2 {
+        font-size: 20px;
+    }
+
+    #about ul li {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
